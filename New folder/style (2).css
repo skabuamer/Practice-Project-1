@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000;
+    background-color: #ddd;
+}
+.clear {overflow: hidden;}
+.headersection {
+    height: 85px;
+    background: #000;
+    color: #fff;
+    
+}
+.headersection h1 {
+    font-size: 40px;
+    padding-top: 30px;
+    text-align: center;
+}
+.navsection {
+    
+    background: rgb(92, 87, 87);
+    overflow: hidden;
+}
+.navsection ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navsection ul li {
+    display: block;
+    float: left;
+}
+.navsection ul li a {
+    background: #E0DFE1;
+    color: #264F78;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    padding: 5px 18px;
+    margin: 5px;
+}
+.navsection ul li a:hover 
+{background: #264F78; color: #fff;}
+.contnetsection {
+    background: #fff;
+    overflow: hidden;
+}
+.contnetsection p {
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 20px;
+
+}
+.maincontent {
+    width: 850px;
+    background: #E0DFE1;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0px;
+}
+.maincontent h2 {
+    /* background: #00cec9; */
+    padding: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #356463;
+}
+.maincontent img {
+    float: left;
+    width: 300px;
+    margin-right: 10px;
+    background: #fff;
+    border: 1px solid #356463;
+    padding: 5px;
+}
+.maincontent p {
+    text-align: justify;
+}
+.readmore {
+    float: right;
+    margin: 5px 0px;
+}
+.readmore a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    background: #356463;
+    border-radius: 10px;
+    border: 1px solid #356463;
+    display: block;
+}
+.readmore a:hover {color: #356463; background: #fff;}
+.sidebar {
+    width: 470px;
+    background: #E0DFE1;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    margin-right: 0px;
+    display: block;
+}
+.footersection {
+    background: #474647;
+    height: 80px;
+    overflow: hidden;
+    display: block;
+}
+.footersection h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.samesidebar {
+
+}
+.samesidebar h2 {
+    background: #9B999B;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    border-bottom: 1px solid #000;
+}
+.samesidebar p {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(97, 97, 97);
+}
